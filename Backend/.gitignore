@@ -1,3 +1,10 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Glitch-CoD3/High-Secure-Authentication.git
+git push -u origin main
+
 
 .env
 .env
