@@ -1,0 +1,23 @@
+{
+  "name": "gen-ai",
+  "version": "1.0.0",
+  "description": "Gen+AI Project which works for resume CV using gimini",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config --experimental-json-modules ./server.js"
+  },
+  "author": "JUEL RANA",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.4.1",
+    "nodemailer": "^8.0.5",
+    "nodemon": "^3.1.14"
+  }
+}
